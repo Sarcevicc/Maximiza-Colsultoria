@@ -11,44 +11,131 @@ body {
 
 
 /* Header */
+
 #header {
-    background: #216A21;
+    background: #216A21
 }
 
-#header .menu ul {
-    max-width: 1310px;
-    list-style: none;
-}
 
-#header .menu ul li {
-    display: inline;
-    margin: 40px;
-}
 
-#header .menu ul li a {
-    color: #ffffff;
+/* Tipografia */
+.title {
     font-family: Roboto;
-    font-weight: 400;
+}
+
+.title.one {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.title.two {
     font-size: 19px;
-    display: inline-block;
+    font-weight: 300;
+}
+
+
+.title.three{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.title.four {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.title.five{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.title.six{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.title.seven{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.title.eight{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.title.form{
+    font-size: 20px;
+    font-weight: 100;
+    color: black;
+}
+
+#first .flex-box {
+    display: flex;
+    box-align: center;
+}
+
+#first .flex-box h1 {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 100px;
+    color: #ffffff;
+
+}
+
+#first .flex-box a {
+    position: absolute;
+    margin-top: 315px;
+    margin-left: 131px;
+}
+
+
+
+
+/*Buttons*/
+#header .menubtn{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+
+.contact-btn1{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: roboto;
+    font-size: 19px;
+    font-weight: 700;
     text-decoration: none;
+    color: #ffffff; 
+    background: #216A21;
+    height: 56px;
+    width: 220px;
+    border-radius: 45px 5px;  
 }
 
-#header .flex-box{
-    display: flex;
+.contact-btn2{
+    display: inline-flex;
     align-items: center;
-    justify-content: space-between;
-
+    justify-content: center;
+    font-family: roboto;
+    font-size: 19px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffffff; 
+    background: #216A21;
+    height:46px;
+    width: 415px;
+    border-radius: 45px 5px;  
 }
 
-#header .flex-box nav {
-    display: flex;
-    align-items: center;
-    padding-right: 100px;
+.contact-btn1:hover{
+    background: #b1cbb1;
+    border-color: #b1cbb1;
 }
 
-#header .flex-box .logo img {
-    max-width: 304px;
+.contact-btn2:hover{
+    background: #b1cbb1;
+    border-color: #b1cbb1;
 }
-
-
