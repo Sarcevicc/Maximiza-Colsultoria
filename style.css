@@ -18,6 +18,16 @@ body {
 
 
 
+/*Global Padding*/
+.pad70-top{
+    padding-top: 70px;
+}
+
+
+
+
+
+
 /* Tipografia */
 .title {
     font-family: Roboto;
@@ -70,6 +80,10 @@ body {
     color: black;
 }
 
+/*Grid*/
+#first .container{
+    padding-bottom: 35px;
+}
 #first .flex-box {
     display: flex;
     box-align: center;
@@ -89,8 +103,44 @@ body {
     margin-left: 131px;
 }
 
+#about .container {
+    display: flex;
+    padding-top: 35px;
+}
 
+#about .flex-box {
+    display: flex;
+    align-items: center;
+}
 
+#about .flex-box h2{
+    position: absolute;
+    margin-left: 323px;
+    padding-bottom: 30px;
+}
+
+#about .flex-box div{
+    position: absolute;
+    background: #b1cbb1;
+    border-radius: 20px;
+    width: 650px;
+    height: 5px;
+    margin-left: 330px;
+
+}
+
+#about .flex-box p{
+    position: absolute;
+    padding-top: ;
+    margin-left: 323px;
+    text-align: center;
+    padding-bottom: 75px;
+
+}
+
+#services .container {
+    padding-top: 75px;
+}
 
 /*Buttons*/
 #header .menubtn{
