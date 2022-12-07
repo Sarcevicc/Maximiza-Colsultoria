@@ -642,3 +642,7 @@ body {
     background: #b1cbb1;
     border-color: #216A21;
 }
+
+@media(max-width: 800px){
+    
+}
