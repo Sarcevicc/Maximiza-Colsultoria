@@ -441,12 +441,12 @@ body {
     margin-bottom: 60px;
 }
 
-
-#contact .left{
+#contact .flex-box{
     display: flex;
-    position: absolute;
-    margin-top: 188px;
-    margin-left: 100px;
+}
+#contact .left{
+    padding-top: 188px;
+    padding-left: 100px;
 }
 
 #contact .left h1{
@@ -454,9 +454,8 @@ body {
 }
 
 #contact .right{
-    position: absolute;
-    margin-top: 123px;
-    margin-left: 643px;
+    padding-top: 123px;
+    margin-left: 40px;
 }
 
 #contact .name-email{
