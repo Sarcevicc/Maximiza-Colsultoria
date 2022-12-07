@@ -443,6 +443,7 @@ body {
 
 
 #contact .left{
+    display: flex;
     position: absolute;
     margin-top: 188px;
     margin-left: 100px;
