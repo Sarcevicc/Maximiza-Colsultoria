@@ -129,7 +129,6 @@ body {
 }
 #first .flex-box {
     display: flex;
-    box-align: center;
 }
 
 #first .flex-box img{
