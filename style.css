@@ -359,6 +359,7 @@ body {
 
 #contact .container{
     padding-top: 60px;
+    padding-bottom: 50px;
 }
 
 #contact .flex-box{
@@ -421,6 +422,88 @@ body {
     height: 70px;
     padding: 0px 10px ;
     border-radius: 20px;
+}
+
+/* Footer */
+
+#footer .container {
+    background: #216A21;
+    width: 1310px;
+}
+
+#footer .flex-box{
+    display: flex;
+    padding: 0px 100px;
+    gap: 160px;
+}
+
+#footer .left {
+    margin-top: 50px;
+}
+
+#footer .left .logo img{
+    width: 150px;
+    margin-left: 17px;
+}
+
+#footer .left .social{
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+#footer .left .social img{
+    width: 38px;
+}
+
+#footer .left .social img:hover{
+    opacity: 50%;
+    transition: 0.4s;
+}
+
+#footer .middle{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer .middle h2{
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+#footer .middle a{
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+#footer .middle a:hover{
+    opacity: 50%;
+    transition: 0.4s;
+}
+
+#footer .right{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #ffffff;
+}
+
+#footer .right p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#footer .copy{
+    color: #ffffff;
+    margin-left: 553px;
+    margin-top: 65px;
 }
 
 /*Buttons*/
