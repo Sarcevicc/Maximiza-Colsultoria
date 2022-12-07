@@ -81,6 +81,9 @@ body {
 }
 
 /*Grid*/
+
+
+
 #first .container{
     padding-bottom: 35px;
 }
@@ -103,43 +106,178 @@ body {
     margin-left: 131px;
 }
 
+
+/* Grid */
 #about .container {
-    display: flex;
     padding-top: 35px;
+    padding-bottom: 40px;
 }
 
 #about .flex-box {
-    display: flex;
     align-items: center;
 }
 
 #about .flex-box h2{
-    position: absolute;
-    margin-left: 323px;
-    padding-bottom: 30px;
+    margin-left: 330px;
+    margin-bottom: 30px;
 }
 
 #about .flex-box div{
-    position: absolute;
     background: #b1cbb1;
     border-radius: 20px;
     width: 650px;
     height: 5px;
     margin-left: 330px;
-
 }
 
 #about .flex-box p{
-    position: absolute;
-    margin-left: 323px;
     text-align: center;
-    padding-bottom: 75px;
+    margin-top:30px;
 
 }
 
+/*Grid Services*/
 #services .container {
-    padding-top: 75px;
+    padding-top: 40px;
+    padding-bottom: 60px;
 }
+
+#services .flex-box {
+    background: #b1cbb1;
+    padding-bottom: 50px;
+    border-radius: 0px 200px 0px 0px;
+}
+
+#services .text-img{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+#services .text-top h3{
+    padding-top: 50px;
+    margin-left: 100px;
+}
+
+#services .text-top h2{
+    margin-top: 35px;
+    margin-left: 100px;
+}
+
+#services .logo-right img{
+    width: 486px;
+    margin-top: 127px;
+}
+
+#services .service-box{
+    padding: 55px 100px;
+    display: flex;
+    gap: 27px;
+}
+
+#services .market {
+    background: #ffffff;
+    height: 380px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+#services .market img{
+    width: 70px;
+    margin: 70px 65px 40px 65px;
+}
+
+#services .market h3{
+    margin: 0px 61px 20px;
+}
+
+#services .market p{
+    text-align: center;
+}
+
+#services .strategy {
+    background: #ffffff;
+    height: 380px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+#services .strategy img{
+    width: 70px;
+    margin: 70px 65px 40px 65px;
+}
+
+#services .strategy h3{
+    margin: 0px 55px 20px;
+}
+
+#services .strategy p{
+    text-align: center;
+}
+
+#services .planning {
+    background: #ffffff;
+    height: 380px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+#services .planning img{
+    width: 70px;
+    margin: 70px 65px 40px 65px;
+}
+
+#services .planning h3{
+    margin: 0px 68px 20px;
+}
+
+#services .planning p{
+    text-align: center;
+}
+
+#services .research {
+    background: #ffffff;
+    height: 380px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+#services .research img{
+    width: 70px;
+    margin: 70px 65px 40px 65px;
+}
+
+#services .research h3{
+    margin: 0px 37px 20px;
+    text-align: center;
+}
+
+#services .research p{
+    text-align: center;
+}
+
+#services .remote {
+    background: #ffffff;
+    height: 380px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+#services .remote img{
+    width: 70px;
+    margin: 70px 65px 40px 65px;
+}
+
+#services .remote h3{
+    margin: 0px 16px 20px;
+    text-align: center;
+}
+
+#services .remote p{
+    text-align: center;
+}
+
+
 
 /*Buttons*/
 #header .menubtn{
