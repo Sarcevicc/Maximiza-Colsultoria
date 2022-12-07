@@ -15,6 +15,7 @@ body {
 
 #header .container{
     background: #216A21;
+    width: 1310px;
 }
 
 #header .flex-box{
@@ -128,6 +129,11 @@ body {
 #first .flex-box {
     display: flex;
     box-align: center;
+}
+
+#first .flex-box img{
+    width: 1310px;
+    height: 405px;
 }
 
 #first .flex-box h1 {
@@ -645,8 +651,8 @@ body {
     border-color: #216A21;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 700px){
     body{
-        width: auto;
+        width: 50%;
     }
 }
