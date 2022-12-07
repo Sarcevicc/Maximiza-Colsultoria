@@ -325,6 +325,7 @@ body {
 #execution .container {
     background: #b1cbb1;
     border-radius: 0px 0px 200px 0px;
+
 }
 
 #execution .flex-box {
@@ -354,7 +355,73 @@ body {
     margin-bottom: 47px;
 }
 
+/* Grid Contact*/
 
+#contact .container{
+    padding-top: 60px;
+}
+
+#contact .flex-box{
+    display: flex;
+}
+
+#contact .flexbox img{
+    width: 1310px;
+}
+
+#contact .left{
+    position: absolute;
+    margin-top: 188px;
+    margin-left: 100px;
+}
+
+#contact .left h1{
+    color: #ffffff;
+}
+
+#contact .right{
+    position: absolute;
+    margin-top: 123px;
+    margin-left: 643px;
+}
+
+#contact .name-email{
+    display: flex;
+    gap: 22px;
+    margin-bottom: 40px;
+}
+
+#contact .name-email input{
+    width: 272px;
+    height: 38px;
+    padding: 0px 10px ;
+    border-radius: 20px;
+}
+
+#contact .phone-segment{
+    display: flex;
+    gap: 22px;
+    margin-bottom: 40px;
+}
+
+#contact .phone-segment input{
+    width: 272px;
+    height: 38px;
+    padding: 0px 10px ;
+    border-radius: 20px;
+}
+
+#contact .message{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+#contact .message input{
+    width: 565px;
+    height: 70px;
+    padding: 0px 10px ;
+    border-radius: 20px;
+}
 
 /*Buttons*/
 #header .menubtn{
@@ -377,6 +444,7 @@ body {
     height: 56px;
     width: 220px;
     border-radius: 45px 5px;  
+    transition: 0.4s;
 }
 
 .contact-btn2{
@@ -392,6 +460,7 @@ body {
     height:46px;
     width: 415px;
     border-radius: 45px 5px;  
+    transition: 0.4s;
 }
 
 .contact-btn1:hover{
@@ -402,4 +471,23 @@ body {
 .contact-btn2:hover{
     background: #b1cbb1;
     border-color: #b1cbb1;
+}
+
+#contact button{
+    background-color: #216A21; 
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+    width: 565px;
+    height: 44px;
+    border-radius: 20px;
+    border-color: #b1cbb1;
+    transition: 0.4s;
+}
+
+#contact button:hover{
+    cursor: pointer;
+    background: #b1cbb1;
+    border-color: #216A21;
 }
