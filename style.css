@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -41,7 +42,7 @@ body {
     display: flex;
     margin-left: 70px;
     margin-top: 36px;
-    gap: 40px;
+    gap: 35px;
 }
 
 #header .menu li{
