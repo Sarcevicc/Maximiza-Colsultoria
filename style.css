@@ -653,8 +653,3 @@ body {
     border-color: #216A21;
 }
 
-@media screen and (max-width: 700px){
-    body{
-        width: 50%;
-    }
-}
