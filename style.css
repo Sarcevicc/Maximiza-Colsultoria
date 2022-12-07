@@ -126,10 +126,10 @@ body {
 #first .container{
     padding-bottom: 35px;
     width: 1310px;
+    height: 405px;
+    background: url(./assets/grocery.png) no-repeat;
 }
-#first .flex-box {
-    display: flex;
-}
+
 
 #first .flex-box img{
     width: 1310px;
@@ -137,16 +137,14 @@ body {
 }
 
 #first .flex-box h1 {
-    position: absolute;
-    margin-top: 75px;
+    padding-top: 70px;
     margin-left: 100px;
     color: #ffffff;
 
 }
 
 #first .flex-box a {
-    position: absolute;
-    margin-top: 315px;
+    margin-top: 30px;
     margin-left: 131px;
 }
 
@@ -402,6 +400,7 @@ body {
     background: #b1cbb1;
     border-radius: 0px 0px 200px 0px;
     width: 1310px;
+    margin-bottom: 60px;
 
 }
 
@@ -435,17 +434,12 @@ body {
 /* Grid Contact*/
 
 #contact .container{
-    padding-top: 60px;
-    padding-bottom: 50px;
-}
-
-#contact .flex-box{
-    display: flex;
-}
-
-#contact .flexbox img{
+    background: url(./assets/grocery-fruit.png) no-repeat;
     width: 1310px;
+    height: 540px;
+    margin-bottom: 60px;
 }
+
 
 #contact .left{
     position: absolute;
@@ -652,3 +646,8 @@ body {
     border-color: #216A21;
 }
 
+@media (max-width:750px){
+   body{
+    width: 750px;
+   }
+}
