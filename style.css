@@ -12,22 +12,59 @@ body {
 
 /* Header */
 
-#header {
-    background: #216A21
+#header .container{
+    background: #216A21;
 }
 
-
-
-/*Global Padding*/
-.pad70-top{
-    padding-top: 70px;
+#header .flex-box{
+    display: flex;
+    padding: 0px 100px;
 }
 
+#header .logo img{
+    width: 304px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
 
+#header .logo img:hover{
+    opacity: 50%;
+    transition: 0.4s;
+}
 
+#header .menu{
+    display: flex;
+    gap: 40px;
+}
 
+#header .menu ul{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 36px;
+    gap: 40px;
+}
 
+#header .menu li{
+    list-style: none;
+}
 
+#header .menu a{
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#header .menu a:hover{
+    opacity: 50%;
+    transition: 0.4s;
+}
+
+#header .menu button:hover{
+    opacity: 50%;
+    transition: 0.4s;
+}
 /* Tipografia */
 .title {
     font-family: Roboto;
@@ -183,6 +220,12 @@ body {
     border-radius: 15px;
 }
 
+#services .market:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px #000000;
+    transition: 0.3s;
+}
+
 #services .market img{
     width: 70px;
     margin: 70px 65px 40px 65px;
@@ -201,6 +244,12 @@ body {
     height: 380px;
     width: 200px;
     border-radius: 15px;
+}
+
+#services .strategy:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px #000000;
+    transition: 0.3s;
 }
 
 #services .strategy img{
@@ -223,6 +272,12 @@ body {
     border-radius: 15px;
 }
 
+#services .planning:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px #000000;
+    transition: 0.3s;
+}
+
 #services .planning img{
     width: 70px;
     margin: 70px 65px 40px 65px;
@@ -241,6 +296,12 @@ body {
     height: 380px;
     width: 200px;
     border-radius: 15px;
+}
+
+#services .research:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px #000000;
+    transition: 0.3s;
 }
 
 #services .research img{
@@ -262,6 +323,12 @@ body {
     height: 380px;
     width: 200px;
     border-radius: 15px;
+}
+
+#services .remote:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px #000000;
+    transition: 0.3s;
 }
 
 #services .remote img{
