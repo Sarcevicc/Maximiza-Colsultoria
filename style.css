@@ -279,7 +279,46 @@ body {
 }
 
 /* Grid Segment*/
+#segment .container {
+    padding: 30px 100px 50px 100px;
+}
 
+#segment .flex-box {
+    display: flex;
+    gap: 60px;
+}
+
+
+#segment .left img{
+    height: 495px;
+    position: absolute;
+}
+
+#segment .under-img {
+    background: #b1cbb1;
+    width: 495px;
+    height: 495px;
+    border-radius: 0px 0px 200px 0px;
+    margin-left: 45px;
+    margin-top: 45px;
+}
+
+#segment .right h3{
+    margin-top: 85px;
+    margin-bottom: 20px;
+}
+
+#segment .right .bar{
+    background: #b1cbb1;
+    width: 330px;
+    height: 5px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+#segment .right p{
+    margin-bottom: 45px;
+}
 
 /*Buttons*/
 #header .menubtn{
