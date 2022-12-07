@@ -178,6 +178,7 @@ body {
 #services .container {
     padding-top: 40px;
     padding-bottom: 60px;
+    width: 1310px;
 }
 
 #services .flex-box {
@@ -393,6 +394,7 @@ body {
 #execution .container {
     background: #b1cbb1;
     border-radius: 0px 0px 200px 0px;
+    width: 1310px;
 
 }
 
@@ -644,5 +646,5 @@ body {
 }
 
 @media(max-width: 800px){
-    
+
 }
