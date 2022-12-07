@@ -125,6 +125,7 @@ body {
 
 #first .container{
     padding-bottom: 35px;
+    width: 1310px;
 }
 #first .flex-box {
     display: flex;
@@ -155,6 +156,7 @@ body {
 #about .container {
     padding-top: 35px;
     padding-bottom: 40px;
+    width: 1310px;
 }
 
 #about .flex-box {
